@@ -6,7 +6,7 @@ $(document).ready(function(){
   x = document.getElementById('jonathan')
   s = ""
   for (var org of orgs) {
-     s = s + "<div class=\"col-lg-4 col-sm-6 portfolio-item\"><div class=\"card h-100\"><a href=\"#\"><img class=\"card-img-top\" src=\""+org.name+"\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"#\">"+org.orgname+"</a></h4><p class=\"card-text\">"+org.message+ "<br>Contact Us:<br>" +org.email+"<br>"+org.phone+"</p></div></div></div>";
+     s = s + "<div class=\"col-lg-4 col-sm-6 portfolio-item\"><div class=\"card h-100\"><a href=\"#\"><img class=\"card-img-top\" src=\""+org.name+"\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"#\">"+org.orgname+"</a></h4><p class=\"card-text\">"+org.message+ "</p></div></div></div>";
 
     // org.orgname
     // org.name
