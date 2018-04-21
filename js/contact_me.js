@@ -23,7 +23,7 @@ $(function() {
       
       // add item to local storage
       var storage = window.localStorage;
-      var data = {name, phone, email, message}; // package items
+      var data = {orgname, name, phone, email, message}; // package items
       var orgs = JSON.parse(storage.getItem("orgs"));
       if (!orgs)
         orgs = [];
